@@ -15,9 +15,6 @@ Unlike many rapidly urbanizing coastal regions, the data indicates a significant
 ## 🌡️ Land Surface Temperature (LST) Analysis - 2025
 The map below illustrates the surface thermal intensity across Udupi. Areas in **Red** indicate high-intensity heat zones (Urban Heat Islands), while **Blue** represents cooling vegetation and water bodies.
 
-<p align="center">
-  <img src="lst_map_2025.png" width="800" alt="Udupi LST Map 2025">
-</p>
 
 ### 📊 Thermal Intensity Scale
 | Visual | Temperature Range | Classification | Description |
@@ -32,8 +29,10 @@ The map below illustrates the surface thermal intensity across Udupi. Areas in *
 <img width="815" height="634" alt="Screenshot 2026-03-25 122024" src="https://github.com/user-attachments/assets/0d18b10e-e9d5-410b-af8d-803274d7c24c" />
 
 ### 📊 Cooling/Warming Map [2016-2025]
-| 🟦 | Cooling Zone
-| 🟥 | Warming Zone
+| Visual | Classification |
+| :---: | :---: | :--- | :--- |
+| 🟦 | **Cooling Zone** |
+| 🟧 | **Warming Zone** |
 
 <img width="808" height="642" alt="Screenshot 2026-03-25 122038" src="https://github.com/user-attachments/assets/bc6d7489-963f-4bb7-9fd7-9e900c66e667" />
 
