@@ -73,6 +73,7 @@ The script generates 6 automated charts:
 4. Check the **Console** for charts and the **Tasks** tab for map exports.
 
 ---
-**Author:** V Tilak Teja 
+
 **Data Sources:** NASA/USGS Landsat Program, USDA SMAP  
 **Tools:** Google Earth Engine, JavaScript API
+**Author:** V Tilak Teja 
