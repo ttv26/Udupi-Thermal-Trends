@@ -50,13 +50,12 @@ Study Area: The coastal district of Udupi, Karnataka, India. Known for its later
 
 ## 📊 Visualizations Included
 The script generates 6 automated charts:
-1. **LST Trend:** 13-year temperature trajectory.
+1. **LST Trend:** 9-year temperature trajectory.
 2. **NDVI Trend:** Vegetation biomass growth.
 3. **NDBI Trend:** Infrastructure/Urban footprint change.
-4. **Soil Moisture:** Surface water retention (SMAP/GLDAS).
 5. **SUHI Intensity:** The mathematical "Heat Gap" trendline.
 6. **Scatter Plot:** Correlation between greenness and temperature (with $R^2$ proof).
-7. 
+   
 <img width="1880" height="879" alt="ee-chart (4)" src="https://github.com/user-attachments/assets/68690ca3-93dc-4b30-8bdd-1e98acacf4da" />
 
 <img width="1880" height="879" alt="ee-chart (3)" src="https://github.com/user-attachments/assets/8064c2bd-2ce6-418b-9151-f6bcc2759081" />
@@ -74,6 +73,6 @@ The script generates 6 automated charts:
 4. Check the **Console** for charts and the **Tasks** tab for map exports.
 
 ---
-**Author:** V Tilak Teja 
+**Author:** V Tilak Teja **
 **Data Sources:** NASA/USGS Landsat Program, USDA SMAP  
 **Tools:** Google Earth Engine, JavaScript API
