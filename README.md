@@ -30,7 +30,7 @@ The map below illustrates the surface thermal intensity across Udupi. Areas in *
 
 ### 📊 Cooling/Warming Map [2016-2025]
 | Visual | Classification |
-| :---: | :---: | :--- | :--- |
+| :---: | :---: |
 | 🟦 | **Cooling Zone** |
 | 🟧 | **Warming Zone** |
 
