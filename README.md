@@ -1,7 +1,15 @@
 # udupi-thermal-trends
-You said Spatio-Temporal Analysis of Urban Heat Island Dynamics and Vegetation Recovery in Udupi (2013–2025)
+You said Spatio-Temporal Analysis of Urban Heat Island Dynamics and Vegetation Recovery in Udupi (2016–2025)
 
+<img width="1880" height="879" alt="ee-chart (4)" src="https://github.com/user-attachments/assets/68690ca3-93dc-4b30-8bdd-1e98acacf4da" />
 
+<img width="1880" height="879" alt="ee-chart (3)" src="https://github.com/user-attachments/assets/8064c2bd-2ce6-418b-9151-f6bcc2759081" />
+
+<img width="1880" height="879" alt="ee-chart (2)" src="https://github.com/user-attachments/assets/aaf24798-9bd4-447d-b588-02b00619996b" />
+
+<img width="1880" height="879" alt="ee-chart (1)" src="https://github.com/user-attachments/assets/7ce0a90a-8787-4e1b-9b0d-93b194b9ede8" />
+
+<img width="1880" height="879" alt="ee-chart" src="https://github.com/user-attachments/assets/9f2867ce-dcfa-46e6-9a32-323b1d99f36e" />
 
 # Spatio-Temporal Analysis of Urban Heat Island Dynamics and Vegetation Recovery in Udupi (2013–2025)
 
