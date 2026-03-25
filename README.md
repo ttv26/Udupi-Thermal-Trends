@@ -76,4 +76,5 @@ The script generates 6 automated charts:
 
 **Data Sources:** NASA/USGS Landsat Program, USDA SMAP  
 **Tools:** Google Earth Engine, JavaScript API
+
 **Author:** V Tilak Teja 
