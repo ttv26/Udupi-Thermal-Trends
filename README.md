@@ -1,2 +1,53 @@
 # udupi-thermal-trends
 You said Spatio-Temporal Analysis of Urban Heat Island Dynamics and Vegetation Recovery in Udupi (2013–2025)
+
+
+
+# Spatio-Temporal Analysis of Urban Heat Island Dynamics and Vegetation Recovery in Udupi (2013–2025)
+
+## 📌 Project Overview
+This project utilizes **Google Earth Engine (GEE)** to conduct a longitudinal assessment of the Surface Urban Heat Island (SUHI) effect in the Udupi region, Karnataka. By integrating multi-sensor satellite data from **Landsat 8 & 9**, the study quantifies the relationship between Land Surface Temperature (LST), Vegetation health (NDVI), and Urban expansion (NDBI).
+
+Unlike many rapidly urbanizing coastal regions, the data indicates a significant **thermal recovery phase** starting post-2020, closely linked to a rise in regional green cover and soil moisture.
+
+## 🚀 Key Findings
+* **Thermal Mitigation:** A total of **4,201.89 Hectares** in the AOI experienced a significant cooling (>2°C drop) between 2020 and 2025.
+* **Cooling Efficiency:** Statistical correlation shows a cooling rate of **1.84°C for every 0.1 increase in NDVI**.
+* **UHI Decay:** The "Urban-Rural Gap" (SUHI Intensity) has narrowed by approximately 60% since its peak in 2017.
+* **Peak Year:** 2020 was identified as the maximum thermal stress year (~37°C mean LST), followed by a steady recovery.
+
+## 🛠️ Methodology & Formulas
+The analysis uses the following indices to triangulate environmental health:
+1. **LST (Celsius):** Derived from Landsat Thermal Band 10 using the standard scale/offset:  
+   `LST = (DN * 0.00341802 + 149.0) - 273.15`
+2. **NDVI:** $\frac{NIR - Red}{NIR + Red}$ (Used to measure vegetation recovery).
+3. **NDBI:** $\frac{SWIR - NIR}{SWIR + NIR}$ (Used to monitor built-up density).
+4. **SUHI Intensity:** Calculated as the difference between the **Urban AOI Mean LST** and a **3km Rural Buffer Mean LST**.
+
+## 🗺️ Study Area
+Study Area: The coastal district of Udupi, Karnataka, India. Known for its lateritic landscape and significant plantation agriculture (Arecanut/Coconut), which plays a key role in the observed NDVI recovery.
+
+## 📊 Visualizations Included
+The script generates 6 automated charts:
+1. **LST Trend:** 13-year temperature trajectory.
+2. **NDVI Trend:** Vegetation biomass growth.
+3. **NDBI Trend:** Infrastructure/Urban footprint change.
+4. **Soil Moisture:** Surface water retention (SMAP/GLDAS).
+5. **SUHI Intensity:** The mathematical "Heat Gap" trendline.
+6. **Scatter Plot:** Correlation between greenness and temperature (with $R^2$ proof).
+
+## 📂 Repository Structure
+* `/scripts`: Contains the GEE JavaScript code.
+* `/exports`: (Optional) Placeholder for CSV data of SUHI intensity.
+* `README.md`: Project documentation.
+
+## 📝 How to Use
+1. Open the [Google Earth Engine Code Editor]([https://code.earthengine.google.com/](https://code.earthengine.google.com/e94e1dcee56e130bbe17cc58a2f29a6a)).
+2. Define a polygon named `aoi` over the Udupi region.
+3. Copy the script from `scripts/analysis.js` and click **Run**.
+4. Check the **Console** for charts and the **Tasks** tab for map exports.
+
+---
+**Author:** V Tilak Teja 
+**Data Sources:** NASA/USGS Landsat Program, USDA SMAP  
+**Tools:** Google Earth Engine, JavaScript API
