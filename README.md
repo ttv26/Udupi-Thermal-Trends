@@ -1,4 +1,4 @@
-# udupi-thermal-trends
+# Udupi Thermal Trends
 
 # Spatio-Temporal Analysis of Urban Heat Island Dynamics and Vegetation Recovery in Udupi (2016–2025)
 
